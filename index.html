@@ -46,7 +46,7 @@
         <section class="title-background">
             <div class="container">
             <h1 class="title">Effective Solutions for Your Business</h1>
-            <button type="button" class="filter-buttonone cursor">Order Service</button>
+            <button type="button" data-modal-open class="filter-buttonone cursor">Order Service</button>
             </div>
         </section>
         
@@ -357,5 +357,15 @@
         </div>
         </div>
     </footer>
+    <div class="modal-conteiner is-hidden" data-modal>
+        <div class="modal-box">
+            <button type="button" data-modal-close class="modal-button cursor">
+                <svg width="8" height="8" class="svg-button">
+                    <use href="./images/icons.svg#icon-close-black"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
